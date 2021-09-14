@@ -1,1 +1,211 @@
-﻿
+﻿html,
+body {
+    background: #CCCCCC;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* HEADER */
+
+header {
+    position: absolute;
+    width: 1189px;
+    height: 35px;
+    left: 373px;
+    top: 44px;
+}
+
+.dropdown__icon {
+    position: absolute;
+    top: 5px;
+    bottom: 6px;
+    color: #FFFFFF;
+}
+
+.logo {
+    position: absolute;
+    left: 73px;
+}
+
+.contact__icon {
+    position: absolute;
+    left: 769px;
+    top: 3px;
+}
+
+.contact__text {
+    position: absolute;
+    left: 816px;
+    top: 11px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.search__icon {
+    position: absolute;
+    left: 961px;
+    top: 6px;
+}
+
+.search__text {
+    position: absolute;
+    left: 1002px;
+    top: 11px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.shopping-bag__icon {
+    position: absolute;
+    left: 1138px;
+    top: 3px;
+}
+
+/* NAVBAR */
+
+.navbar {
+    position: absolute;
+    width: 575px;
+    height: 271.48px;
+    left: 344px;
+    top: 89px;
+}
+
+.nav__rectangle {
+    display: none;
+    position: absolute;
+    width: 18.37px;
+    height: 18.37px;
+    left: 30px;
+    top: 3px;
+    background: #3EC6E0;
+    transform: rotate(135deg);
+}
+
+.nav__box {
+    display: none;
+    position: absolute;
+    width: 565px;
+    height: 249px;
+    bottom: 10px;
+    background: #084154;
+    border: 2px solid #3EC6E0;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+/* BANNER PRINCIPAL */
+
+.banner__principal-image {
+    width: 100%;
+}
+
+.banner__text-destaque {
+    position: absolute;
+    width: 384px;
+    height: 54px;
+    left: 1051px;
+    top: 209px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+
+.banner__text-preco {
+    position: absolute;
+    width: 226px;
+    height: 82px;
+    left: 1162px;
+    top: 299px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 82px;
+    color: #3EC6E0;
+}
+
+.banner__text-preco-centavos {
+    position: absolute;
+    width: 40px;
+    height: 33px;
+    left: 1388px;
+    top: 314px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 33px;
+    color: #3EC6E0;
+}
+
+.banner__text {
+    position: absolute;
+    width: 420px;
+    height: 163px;
+    left: 1015px;
+    top: 373px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 155%;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+/* BANNER SECUNDÁRIO */
+
+.container__banner-secundario-left {
+    position: absolute;
+    width: 627px;
+    height: 368px;
+    left: 323px;
+    top: 691px;
+}
+
+.container__banner-secundario-right {
+    position: absolute;
+    width: 627px;
+    height: 368px;
+    left: 970px;
+    top: 691px;
+}
+
+.rectangle__banner-secundario-left {
+    position: absolute;
+    width: 589px;
+    height: 61px;
+    left: 323px;
+    top: 1045px;
+    background: #3EC6E0;
+    border-radius: 5px;
+}
+
+.rectangle__banner-secundario-text-left {
+    position: static;
+    width: 299px;
+    height: 19px;
+    left: 353px;
+    top: 1076px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #084154;
+    margin-left: 30px;
+}
