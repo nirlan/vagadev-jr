@@ -7,10 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="theme-color" content="#3EC6E0">
     <title>N1 Rush</title>
+
     <link rel="shortcut icon" type="image/ico" href="img/videogames.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
     <!-- the below three lines are a fix to get HTML5 semantic elements working in old versions of Internet Explorer-->
     <!--[if lt IE 9]>
@@ -19,53 +24,36 @@
 </head>
 
 <body>
-
-    <!-- HEADER -->
-
     <header>
-        <img class="dropdown__icon" src="svgs/icon_hamburguer.svg" alt="Menu">
-        <img class="logo" src="img/Logo_N1_Rush_fundo_escuro_bg_tranparente 1.png" alt="Logotipo da loja N1 Rush.">
-        <img class="contact__icon" src="svgs/paper-plane.svg" alt=" ">
-        <span class="contact__text">Contato</span>
-        <img class="search__icon" src="svgs/search-solid.svg" alt=" ">
-        <span class="search__text">Buscar</span>
-        <img class="shopping-bag__icon" src="svgs/shopping-bag-solid.svg" alt="Carrinho de compras.">
-    </header>
-
-    <!-- NAVBAR -->
-
-    <nav class="navbar">
-        <span class="nav__rectangle"></span>
-        <div class="nav__box">
-            <ul class="dropdown__menu">
-                <li class="dropdown__item">
-                    <ul class="dropdown__submenu">
-                        <li class="dropdown__submenu-item"></li>
-                        <li class="dropdown__submenu-item"></li>
-                        <li class="dropdown__submenu-item"></li>
-                        <li class="dropdown__submenu-item"></li>
-                    </ul>
+        <div class="container-header">
+            <ul class="container-menu">
+                <li class="menu-hamburguer">
+                    <img src="svgs/icon_hamburguer.svg" alt="Menu">
                 </li>
-                <li class="dropdown__item">
-                    <ul class="dropdown__submenu">
-                        <li class="dropdown__submenu-item"></li>
-                        <li class="dropdown__submenu-item"></li>
-                        <li class="dropdown__submenu-item"></li>
-                        <li class="dropdown__submenu-item"></li>
-                    </ul>
-                </li>
-                <li class="dropdown__item">
-                    <ul class="dropdown__submenu">
-                        <li class="dropdown__submenu-item"></li>
-                        <li class="dropdown__submenu-item"></li>
-                    </ul>
+                <li class="logotipo">
+                    <h1><img src="img/Logo_N1_Rush_fundo_escuro_bg_tranparente 1.png"
+                        alt="Logotipo da loja N1 Rush."></h1>
                 </li>
             </ul>
+            <nav class="navegacao-principal">
+                <ul>
+                    <li class="navegacao-contato">
+                        <img src="svgs/paper-plane.svg" alt=" ">            
+                        <p>Contato</p>
+                    </li>
+                    <li class="navegacao-busca">
+                        <img src="svgs/search-solid.svg" alt=" ">            
+                        <p>Buscar</p>
+                    </li>
+                    <li class="navegacao-carrinho">
+                        <img src="svgs/shopping-bag-solid.svg" 
+                        alt="Carrinho de compras.">
+                        <p>2</p>
+                    </li>
+                </ul>
+            </nav>
         </div>
-
-    </nav>
-
-    <!-- CONTEÚDO PRINCIPAL -->
+    </header>
 
     <main>
 
@@ -170,6 +158,8 @@
 
     </footer>
 
+    <script src="jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 

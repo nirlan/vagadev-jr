@@ -1,1 +1,118 @@
-﻿@import "pages/home.css"
+﻿body {
+    background: #000000;
+}
+
+/* HEADER */
+
+header {
+    padding-top: 44px;
+}
+
+.container-header {
+    position: relative;
+    width: 1189px;
+    margin: 0 auto;
+}
+
+.container-menu {
+    display: inline-block;
+}
+
+.menu-hamburguer {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
+}
+
+.logotipo {
+    display: inline-block;
+    margin-left: 43px;
+}
+
+.navegacao-principal {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+
+.navegacao-contato {
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    box-sizing: border-box;   
+    border-right: 1px solid #FFFFFF;
+    height: 30px;
+    width: 177px;
+    padding-right: 43px;
+}
+
+.navegacao-busca {
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;    
+    border-right: 1px solid #FFFFFF;
+    height: 30px;
+    width: 177px;
+    padding-left: 39px;
+}
+
+.navegacao-carrinho {
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;    
+    height: 30px;
+    width: 177px;
+    padding-left: 39px;
+}
+
+.navegacao-contato img {    
+    position: absolute;
+    right: 121.03px;
+    bottom: 3px;
+}
+
+.navegacao-principal ul {
+    position: relative;
+}
+
+.navegacao-contato p {
+    position: absolute;
+    display: inline;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    right: 43px;    
+    top: 50%;
+    transform: translate(0, -50%)
+}
+
+.navegacao-busca p {
+    position: absolute;
+    display: inline;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    right: 43px;
+    top: 50%;
+    transform: translate(0, -50%)
+}
+
+.navegacao-carrinho p {
+    position: absolute;
+    display: inline;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16px;
+    left: 74px;
+    top: 50%;
+    transform: translate(0, -50%)
+}
