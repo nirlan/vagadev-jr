@@ -11,16 +11,19 @@
     <link rel="shortcut icon" type="image/ico" href="img/videogames.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" 
-    rel="stylesheet">
-    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css"
+        integrity="sha512-IJEbgDEF7OeKJRa0MY2PApnyJHRIsgzCveek4ec8VWQ+7KG3ZSKVNYa5xP/Gh0hVP0Mwb+gBsk+GwR3JQGhQNg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
     <!-- the below three lines are a fix to get HTML5 semantic elements working in old versions of Internet Explorer-->
     <!--[if lt IE 9]>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
     <![endif]-->
+    <link rel="stylesheet" href="/css/main.css">
 </head>
 
 <body>
@@ -31,23 +34,22 @@
                     <img src="svgs/icon_hamburguer.svg" alt="Menu">
                 </li>
                 <li class="logotipo">
-                    <h1><img src="img/Logo_N1_Rush_fundo_escuro_bg_tranparente 1.png"
-                        alt="Logotipo da loja N1 Rush."></h1>
+                    <h1><img src="img/Logo_N1_Rush_fundo_escuro_bg_tranparente 1.png" alt="Logotipo da loja N1 Rush.">
+                    </h1>
                 </li>
             </ul>
             <nav class="navegacao-principal">
                 <ul>
                     <li class="navegacao-contato">
-                        <img src="svgs/paper-plane.svg" alt=" ">            
+                        <img src="svgs/paper-plane.svg" alt=" ">
                         <p>Contato</p>
                     </li>
                     <li class="navegacao-busca">
-                        <img src="svgs/search-solid.svg" alt=" ">            
+                        <img src="svgs/search-solid.svg" alt=" ">
                         <p>Buscar</p>
                     </li>
                     <li class="navegacao-carrinho">
-                        <img src="svgs/shopping-bag-solid.svg" 
-                        alt="Carrinho de compras.">
+                        <img src="svgs/shopping-bag-solid.svg" alt="Carrinho de compras.">
                         <p>2</p>
                     </li>
                 </ul>
@@ -56,35 +58,40 @@
     </header>
 
     <main>
-
-        <!-- BANNER PRINCIPAL -->
-
-        <article>
-
-            <picture>
-
-                <source class="banner__principal-image" srcset="" media="">
-                <source class="banner__principal-image" srcset="" media="">
-                <source class="banner__principal-image" srcset="" media="">
-                <img class="banner__principal-image" src="img/principal_banner_desktop.jpg"
-                    alt="Personagem Scorpion do jogo Mortal Kombat em posição de ataque.">
-
-            </picture>
-            <section>
-                <h1 class="banner__text-destaque">MORTAL KOMBAT</h1>
-                <p></p><span class="banner__text-preco">R$ 299</span><span class="banner__text-preco-centavos">,99</span></p>
-                <p class="banner__text">Mortal Kombat X combina uma apresentação cinemática única com uma jogabilidade totalmente nova. Os
-                    jogadores podem escolher pela primeira vez diversas variantes de cada personagem, afetando tanto a
-                    estratégia como o estilo de luta.</p>
-            </section>
-
-            <!-- SLIDER NAV -->
-
-            <nav>
-
-            </nav>
-
-        </article>
+        <section>
+            <div class="slider">
+                <div>                    
+                    <div><img src="/img/principal_banner_desktop.jpg" alt=""></div>
+                </div>
+                <div>
+                    <div><img src="/img/principal_banner_desktop_02.jpg" alt=""></div>
+                </div>
+            </div>
+            <div class="banner-texto">
+                <h2 class="banner-titulo"></h2>
+                <p class="banner-preco"><span class="banner-preco-span"></span></p>
+                <p class="banner-descricao"></p>
+            </div>
+            <div class="controls">
+                <div class="slide-aside">
+                    <p class="slide-name"></p>
+                    <div class="line"></div>
+                </div>
+                <p class="slide-count"></p>
+                <div class="left-arrow">
+                    <img src="/svgs/angle-left-solid.svg" alt="">
+                </div>
+                <div class="right-arrow">
+                    <img src="/svgs/angle-right-solid.svg" alt="">
+                </div>
+            </div>
+        </section>
+        <section>
+            <h1 class="banner__text-destaque"></h1>
+            <p></p><span class="banner__text-preco"></span><span class="banner__text-preco-centavos"></span>
+            </p>
+            <p class="banner__text"></p>
+        </section>
 
         <!-- BANNER SECUNDÁRIO -->
 
@@ -100,7 +107,8 @@
             </picture>
             <section class="rectangle__banner-secundario-left">
 
-                <h3 class="rectangle__banner-secundario-text-left">The Legend of Zelda - Breath of th wild<span></span></h3>
+                <h3 class="rectangle__banner-secundario-text-left">The Legend of Zelda - Breath of th wild<span></span>
+                </h3>
 
             </section>
 
@@ -146,7 +154,6 @@
             </article>
 
         </article>
-
     </main>
 
     <!-- FOOTER -->
@@ -158,9 +165,10 @@
 
     </footer>
 
-    <script src="jquery.min.js"></script>
-    <script src="owlcarousel/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 
 </html>

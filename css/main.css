@@ -1,17 +1,16 @@
 ﻿body {
-    background: #000000;
+    background: #FFFFFF;
 }
 
 /* HEADER */
 
-header {
-    padding-top: 44px;
-}
-
 .container-header {
-    position: relative;
-    width: 1189px;
-    margin: 0 auto;
+    position: absolute;
+    top: 44px;
+    width: 62.5%;
+    z-index: 2;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .container-menu {
@@ -39,7 +38,7 @@ header {
     display: inline-block;
     position: relative;
     top: 3px;
-    box-sizing: border-box;   
+    box-sizing: border-box;
     border-right: 1px solid #FFFFFF;
     height: 30px;
     width: 177px;
@@ -49,7 +48,7 @@ header {
 .navegacao-busca {
     display: inline-block;
     position: relative;
-    box-sizing: border-box;    
+    box-sizing: border-box;
     border-right: 1px solid #FFFFFF;
     height: 30px;
     width: 177px;
@@ -59,20 +58,16 @@ header {
 .navegacao-carrinho {
     display: inline-block;
     position: relative;
-    box-sizing: border-box;    
+    box-sizing: border-box;
     height: 30px;
     width: 177px;
     padding-left: 39px;
 }
 
-.navegacao-contato img {    
+.navegacao-contato img {
     position: absolute;
     right: 121.03px;
     bottom: 3px;
-}
-
-.navegacao-principal ul {
-    position: relative;
 }
 
 .navegacao-contato p {
@@ -84,7 +79,7 @@ header {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    right: 43px;    
+    right: 43px;
     top: 50%;
     transform: translate(0, -50%)
 }
@@ -115,4 +110,149 @@ header {
     left: 74px;
     top: 50%;
     transform: translate(0, -50%)
+}
+
+/* SLICK CAROUSEL */
+
+section {
+    position: relative;
+}
+
+.slider {
+    position: relative;
+    top: 0;
+}
+
+.slider img {
+    width: 100%;
+}
+
+.banner-texto {
+    position: absolute;
+    height: 163px;
+    width: 420px;
+    top: 24.9%;
+    right: 24%;
+}
+
+.banner-titulo {
+    position: relative;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.banner-preco {
+    position: relative;
+    color: #3EC6E0;
+    font-family: Roboto;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 82px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.banner-preco-span {    
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    vertical-align: super;
+}
+
+.banner-descricao {
+    position: relative;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: right;   
+}
+
+.slide-aside {
+    position: relative;
+    height: 78.1%;
+    background: #3EC6E0;
+}
+
+.slide-name {
+    color: #FFFFFF;
+    writing-mode: vertical-rl;
+    position: absolute;
+    top: 10%;
+    right: 50%;
+    transform: translate(50%, 0);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.line {
+    position: absolute;
+    border-right: 1px solid #FFFFFF;
+    height: 25.7%;
+    top: 67%;
+    right: 50%;
+    transform: translate(50%, 0);
+}
+
+.controls {
+    position: absolute;
+    top: 25.2%;
+    right: 0;
+    height: 45.7%;
+    width: 3.3%;
+    background: #084154;
+    border-bottom-left-radius: 0.625rem;
+}
+
+.slide-count {
+    position: absolute;
+    color: #FFFFFF;
+    top: 84.1%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+}
+
+.right-arrow {
+    position: absolute;
+    top: 90.9%;
+    right: 20.6%;
+}
+
+.left-arrow {
+    position: absolute;
+    top: 90.9%;
+    left: 22.2%;
+}
+
+/* BANNERS SECUNDÁRIOS */
+
+article img {
+    max-width: 100%;
 }
