@@ -256,7 +256,7 @@ section {
 
 .banner-texto {
     position: absolute;
-    height: 163px;
+    height: 327px;
     width: 420px;
     top: 24.9%;
     right: 24%;
@@ -381,6 +381,47 @@ section {
 
 /* BANNERS SECUNDÁRIOS */
 
-article img {
+.container-banner-secundario {
+    position: relative;
+    box-sizing: border-box;
+    width: 67.4%;
+    height: 368px;
+    margin: 0 auto;
+}
+
+.container-banner-secundario-esquerda {
+    display: inline-block;
+    position: absolute;
+    width: 50%;
+    left: 0;
+    top: -40.2%;
+}
+
+.container-banner-secundario-esquerda img {
+    width: 627px;
     max-width: 100%;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.container-banner-secundario-direita {
+    display: inline-block;
+    position: absolute;
+    width: 50%;
+    right: 0;
+    top: -40.2%;
+}
+
+.container-banner-secundario-direita img {
+    width: 627px;
+    max-width: 100%;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.retangulo-banner-secundario-esquerda {
+    
+}
+
+.container-banner-secundario-direita {
 }
