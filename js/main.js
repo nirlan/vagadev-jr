@@ -27,7 +27,7 @@
                         $('.banner-titulo').text('red dead redemption II');
                         $('.banner-preco').html('R$ 189<span class="banner-preco-span">,49</span>');
                         $('.banner-descricao').text(
-                            'Ambientado no final do século XIX e início do século XX, o Red Dead conta a história do bandido John Marston, que é chantageado por agentes federais que alem disso, têm a sua família ameaçada. É uma franquia de videogames que combina seus gráficos modernos e uma grande quantidade de desafios para seus jogadores. Sua história completa faz com que seja considerado pela crítica especializada como um dos melhores jogos do gênero de aventura nos últimos anos.'
+                            'Ambientado no final do século XIX e início do século XX, o Red Dead conta a história do bandido John Marston, que é chantageado por agentes federais que além disso, têm a sua família ameaçada. É um dos melhores jogos do gênero de aventura nos últimos anos.'
                         );
 
                 }
@@ -39,4 +39,5 @@
             prevArrow: $('.left-arrow'),
             nextArrow: $('.right-arrow')
         });
+        
     });

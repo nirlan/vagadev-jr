@@ -13,14 +13,32 @@
     transform: translateX(-50%);
 }
 
+/* MENU */
+
 .container-menu {
     display: inline-block;
 }
 
-.menu-hamburguer {
+.navegacao-menu {
     display: inline-block;
     vertical-align: top;
     margin-top: 5px;
+}
+
+.navegacao-menu:hover,
+.navegacao-menu:active {
+    cursor: pointer;
+}
+
+
+.navegacao-menu:hover .navegacao,
+.navegacao-menu:active .navegacao {
+    display: block;
+}
+
+.navegacao:hover .navegacao,
+.navegacao:active .navegacao {
+    display: block;
 }
 
 .logotipo {
@@ -28,13 +46,13 @@
     margin-left: 43px;
 }
 
-.navegacao-principal {
+.menu {
     display: inline-block;
     position: absolute;
     right: 0;
 }
 
-.navegacao-contato {
+.contato {
     display: inline-block;
     position: relative;
     top: 3px;
@@ -45,7 +63,7 @@
     padding-right: 43px;
 }
 
-.navegacao-busca {
+.busca {
     display: inline-block;
     position: relative;
     box-sizing: border-box;
@@ -55,7 +73,7 @@
     padding-left: 39px;
 }
 
-.navegacao-carrinho {
+.carrinho {
     display: inline-block;
     position: relative;
     box-sizing: border-box;
@@ -64,13 +82,13 @@
     padding-left: 39px;
 }
 
-.navegacao-contato img {
+.contato img {
     position: absolute;
     right: 121.03px;
     bottom: 3px;
 }
 
-.navegacao-contato p {
+.contato p {
     position: absolute;
     display: inline;
     color: #FFFFFF;
@@ -84,7 +102,7 @@
     transform: translate(0, -50%)
 }
 
-.navegacao-busca p {
+.busca p {
     position: absolute;
     display: inline;
     color: #FFFFFF;
@@ -98,7 +116,7 @@
     transform: translate(0, -50%)
 }
 
-.navegacao-carrinho p {
+.carrinho p {
     position: absolute;
     display: inline;
     color: #FFFFFF;
@@ -112,7 +130,114 @@
     transform: translate(0, -50%)
 }
 
-/* SLICK CAROUSEL */
+.carrinho span {
+    position: absolute;
+    z-index: -1;
+    height: 23px;
+    width: 23px;
+    background-color: #3EC6E0;
+    border-radius: 50%;
+    left: 67px;
+    top: 50%;
+    transform: translate(0, -50%)
+}
+
+/* NAVEGAÇÃO */
+
+.navegacao {
+    background: #084154;
+    position: absolute;
+    display: none;
+    box-sizing: border-box;
+    width: 565px;
+    height: 249px;
+    left: -30px;
+    top: 57.48px;
+    border: 2px solid #3EC6E0;
+    border-radius: 5px;
+    padding: 45px 25px 38px 30px;
+}
+
+.navegacao ul {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+
+.navegacao a {
+    text-decoration: none;
+    transform: translateX(-10%);
+}
+
+.navegacao li {
+    box-sizing: border-box;
+    width: 166px;
+    height: 33px;
+    padding-left: 16px;
+    padding-top: 9px;
+}
+
+.navegacao a li:hover,
+.navegacao a li:active {
+    background: #3EC6E0;
+    border-radius: 5px;
+
+}
+
+.navegacao ul h3 {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.navegacao li p {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.navegacao-borda {
+    position: absolute;
+    background: #3EC6E0;
+    width: 565px;
+    height: 249px;
+    top: 10px;
+    left: 10px;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+.navegacao-arrow {
+    position: absolute;
+    display: inline-block;
+    background: #3EC6E0;
+    width: 18.37px;
+    height: 18.37px;
+    transform: rotate(135deg);
+    z-index: -1;
+    left: 30px;
+    top: -11.2px;
+}
+
+.arrow-link {
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 60px;
+}
+
+/* BANNER - SLICK CAROUSEL */
 
 section {
     position: relative;
@@ -127,6 +252,8 @@ section {
     width: 100%;
 }
 
+/* BANNER INFO */
+
 .banner-texto {
     position: absolute;
     height: 163px;
@@ -136,7 +263,6 @@ section {
 }
 
 .banner-titulo {
-    position: relative;
     color: #FFFFFF;
     font-family: Roboto;
     font-size: 46px;
@@ -149,7 +275,6 @@ section {
 }
 
 .banner-preco {
-    position: relative;
     color: #3EC6E0;
     font-family: Roboto;
     font-size: 70px;
@@ -160,7 +285,7 @@ section {
     text-align: right;
 }
 
-.banner-preco-span {    
+.banner-preco-span {
     font-family: Roboto;
     font-size: 28px;
     font-style: normal;
@@ -172,7 +297,6 @@ section {
 }
 
 .banner-descricao {
-    position: relative;
     color: #FFFFFF;
     font-family: Roboto;
     font-size: 16px;
@@ -180,8 +304,12 @@ section {
     font-weight: 400;
     line-height: 25px;
     letter-spacing: 0em;
-    text-align: right;   
+    text-align: right;
+    margin-top: 28px;
+    ;
 }
+
+/* SLIDER NAV */
 
 .slide-aside {
     position: relative;
