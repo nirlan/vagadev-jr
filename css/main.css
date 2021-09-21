@@ -1,5 +1,6 @@
 ﻿body {
     background: #FFFFFF;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
 /* HEADER */
@@ -93,7 +94,6 @@
     display: inline;
     color: #FFFFFF;
     text-transform: uppercase;
-    font-family: Roboto;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -107,7 +107,6 @@
     display: inline;
     color: #FFFFFF;
     text-transform: uppercase;
-    font-family: Roboto;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -121,7 +120,6 @@
     display: inline;
     color: #FFFFFF;
     text-transform: uppercase;
-    font-family: Roboto;
     font-weight: 900;
     font-size: 14px;
     line-height: 16px;
@@ -181,29 +179,22 @@
 .navegacao a li:active {
     background: #3EC6E0;
     border-radius: 5px;
-
 }
 
 .navegacao ul h3 {
     color: #FFFFFF;
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 700;
     line-height: 19px;
     letter-spacing: 0em;
-    text-align: left;
 }
 
 .navegacao li p {
     color: #FFFFFF;
-    font-family: Roboto;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 16px;
     letter-spacing: 0em;
-    text-align: left;
 
 }
 
@@ -264,9 +255,7 @@ section {
 
 .banner-titulo {
     color: #FFFFFF;
-    font-family: Roboto;
     font-size: 46px;
-    font-style: normal;
     font-weight: 900;
     line-height: 54px;
     letter-spacing: 0em;
@@ -276,9 +265,7 @@ section {
 
 .banner-preco {
     color: #3EC6E0;
-    font-family: Roboto;
     font-size: 70px;
-    font-style: normal;
     font-weight: 900;
     line-height: 82px;
     letter-spacing: 0em;
@@ -286,21 +273,16 @@ section {
 }
 
 .banner-preco-span {
-    font-family: Roboto;
     font-size: 28px;
-    font-style: normal;
     font-weight: 900;
     line-height: 33px;
     letter-spacing: 0em;
-    text-align: left;
     vertical-align: super;
 }
 
 .banner-descricao {
     color: #FFFFFF;
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 25px;
     letter-spacing: 0em;
@@ -324,13 +306,10 @@ section {
     top: 10%;
     right: 50%;
     transform: translate(50%, 0);
-    font-family: Roboto;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 16px;
     letter-spacing: 0em;
-    text-align: left;
     text-transform: uppercase;
 }
 
@@ -359,9 +338,7 @@ section {
     top: 84.1%;
     left: 50%;
     transform: translate(-50%, 0);
-    font-family: Roboto;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 16px;
     letter-spacing: 0em;
@@ -404,6 +381,30 @@ section {
     border-bottom-left-radius: 5px;
 }
 
+.retangulo-banner-secundario-esquerda {
+    box-sizing: border-box;
+    position: relative;
+    width: 627px;
+    height: 57px;
+    background: #3EC6E0;
+    bottom: 7px;
+    border-radius: 0 0 5px 5px;
+    padding: 17px 0 0 19px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    border-left: 10px solid #084154;
+}
+
+
+.linha-esquerda {
+    position: absolute;
+    border-bottom: 1px solid #084154;
+    width: 247px;
+    top: 47%;
+    right: 27px;
+}
+
 .container-banner-secundario-direita {
     display: inline-block;
     position: absolute;
@@ -419,9 +420,25 @@ section {
     border-bottom-left-radius: 5px;
 }
 
-.retangulo-banner-secundario-esquerda {
-    
+.retangulo-banner-secundario-direita {
+    box-sizing: border-box;
+    position: relative;
+    width: 627px;
+    height: 57px;
+    background: #3EC6E0;
+    bottom: 7px;
+    border-radius: 0 0 5px 5px;
+    padding: 17px 0 0 19px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    border-left: 10px solid #084154;
 }
 
-.container-banner-secundario-direita {
+.linha-direita {
+    position: absolute;
+    border-bottom: 1px solid #084154;
+    width: 247px;
+    top: 47%;
+    right: 27px;
 }
