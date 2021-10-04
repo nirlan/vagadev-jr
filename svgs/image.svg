@@ -1,0 +1,18 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" width="28" height="28">
+	<title>image</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #3ec6e0 } 
+	</style>
+	<path id="Layer" class="shp0" d="M0 0L5.6 0L5.6 5.6L5 5.6C2.24 5.6 0 3.36 0 0.6L0 0Z" />
+	<path id="Layer" class="shp0" d="M11.2 0L16.8 0L16.8 5.6L16.2 5.6C13.44 5.6 11.2 3.36 11.2 0.6L11.2 0Z" />
+	<path id="Layer" class="shp0" d="M22.4 0L28 0L28 5.6L27.4 5.6C24.64 5.6 22.4 3.36 22.4 0.6L22.4 0Z" />
+	<path id="Layer" class="shp0" d="M22.4 11.2L28 11.2L28 16.8L27.4 16.8C24.64 16.8 22.4 14.56 22.4 11.8L22.4 11.2Z" />
+	<path id="Layer" class="shp0" d="M11.2 11.2L16.8 11.2L16.8 16.8L16.2 16.8C13.44 16.8 11.2 14.56 11.2 11.8L11.2 11.2Z" />
+	<path id="Layer" class="shp0" d="M0 11.2L5.6 11.2L5.6 16.8L5 16.8C2.24 16.8 0 14.56 0 11.8L0 11.2Z" />
+	<path id="Layer" class="shp0" d="M0 22.4L5.6 22.4L5.6 28L5 28C2.24 28 0 25.76 0 23L0 22.4Z" />
+	<path id="Layer" class="shp0" d="M11.2 22.4L16.8 22.4L16.8 28L16.2 28C13.44 28 11.2 25.76 11.2 23L11.2 22.4Z" />
+	<path id="Layer" class="shp0" d="M22.4 22.4L28 22.4L28 28L27.4 28C24.64 28 22.4 25.76 22.4 23L22.4 22.4Z" />
+	<path id="Layer copy" class="shp0" d="M22.4 22.4L28 22.4L28 28L27.4 28C24.64 28 22.4 25.76 22.4 23L22.4 22.4Z" />
+	<path id="Layer copy 2" class="shp0" d="M22.4 22.4L28 22.4L28 28L27.4 28C24.64 28 22.4 25.76 22.4 23L22.4 22.4Z" />
+</svg>
