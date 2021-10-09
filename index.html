@@ -22,7 +22,8 @@
     <!--[if lt IE 9]>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
     <![endif]-->
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
@@ -128,19 +129,20 @@
                 </ul>
             </nav>
             </div>
+
     </header>
 
     <main>
 
         <!-- BANNER PRIMÁRIO -->
 
-        <section>
+        <section class="banner-container">
             <div class="slider">
                 <div>
-                    <div><img src="/img/principal_banner_desktop.jpg" alt=""></div>
+                    <div><img src="img/principal_banner_desktop.jpg" alt=""></div>
                 </div>
                 <div>
-                    <div><img src="/img/principal_banner_desktop_02.jpg" alt=""></div>
+                    <div><img src="img/principal_banner_desktop_02.jpg" alt=""></div>
                 </div>
             </div>
             <div class="banner-texto">
@@ -155,10 +157,10 @@
                 </div>
                 <p class="slide-count"></p>
                 <div class="left-arrow">
-                    <img src="/svgs/angle-left-solid.svg" alt="">
+                    <img src="svgs/angle-left-solid.svg" alt="">
                 </div>
                 <div class="right-arrow">
-                    <img src="/svgs/angle-right-solid.svg" alt="">
+                    <img src="svgs/angle-right-solid.svg" alt="">
                 </div>
             </div>
         </section>
@@ -168,14 +170,14 @@
 
         <section class="container-banner-secundario">
             <article class="container-banner-secundario-esquerda">
-                <img src="/img/zelda_banner.jpg" alt="">
+                <img src="img/zelda_banner.jpg" alt="">
                 <div class="retangulo-banner-secundario-esquerda">
                     <h3 class="texto-banner-secundario-esquerda">The Legend of Zelda - Breath of the wild</h3>
                     <div class="linha-esquerda"></div>
                 </div>
             </article>
             <article class="container-banner-secundario-direita">
-                <img src="/img/sekiro_banner.jpg" alt="">
+                <img src="img/sekiro_banner.jpg" alt="">
                 <div class="retangulo-banner-secundario-direita">
                     <h3 class="texto-banner-secundario-direita">SEKIRO - Shadows die twice</h3>
                     <div class="linha-direita"></div>
@@ -186,43 +188,43 @@
         <!-- PRATELEIRA -->
 
         <section class="prateleira">
-            <img src="./svgs/image.svg" alt=" ">
+            <img src="svgs/image.svg" alt=" ">
             <h2>Produtos em destaque</h2>
             <div class="prateleira-conteudo">
                 <article class="prateleira-produto">
                     <div class="produto-imagem">
-                        <img src="./img/product-outriders.jpg" alt="">
+                        <img src="img/product-outriders.jpg" alt="">
                     </div>
                     <div class="produto-footer">
                         <div class="produto-texto">
                             <p>Outriders</p>
                             <p>R$ 200,00</p>
                         </div>
-                        <button>Comprar</button>
+                        <button onclick="comprar()" id="outriders">Comprar</button>
                     </div>
                 </article>
                 <article class="prateleira-produto">
                     <div class="produto-imagem">
-                        <img src="./img/product-cyberpunk2077.jpg" alt="">
+                        <img src="img/product-cyberpunk2077.jpg" alt="">
                     </div>
                     <div class="produto-footer">
                         <div class="produto-texto">
                             <p>Ciberpunk 2077</p>
                             <p>R$ 200,00</p>
                         </div>
-                        <button>Comprar</button>
+                        <button onclick="comprar()" id="cyberpunk">Comprar</button>
                     </div>
                 </article>
                 <article class="prateleira-produto">
                     <div class="produto-imagem">
-                        <img src="./img/product-donkey-kong-country-tropical-freeze.jpg" alt="">
+                        <img src="img/product-donkey-kong-country-tropical-freeze.jpg" alt="">
                     </div>
                     <div class="produto-footer">
                         <div class="produto-texto">
                             <p>Donkey Kong Country Tropical Freeze</p>
                             <p>R$ 200,00</p>
                         </div>
-                        <button>Comprar</button>
+                        <button onclick="comprar()" id="donkey">Comprar</button>
                     </div>
                 </article>
             </div>
@@ -232,15 +234,15 @@
     <!-- FOOTER -->
 
     <footer>
-
-        <img src="" alt="">
-        <p></p>
-
+        <div class="footer-logo">
+            <img src="img/logo_header 1.png" alt="Logotipo da Agência N1.">
+        </div>
+        <p>Agência N1 - Todos os direitos reservados</p>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="/js/main.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

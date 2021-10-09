@@ -19,7 +19,8 @@ body {
 .container-header {
     position: absolute;
     top: 44px;
-    width: 62.5%;
+    max-width: 1189px;
+    width: 100%;
     z-index: 2;
     left: 50%;
     transform: translateX(-50%);
@@ -30,6 +31,7 @@ body {
 
 .container-menu {
     display: inline-block;
+    padding-left: 16px;
 }
 
 .navegacao-menu {
@@ -242,7 +244,7 @@ body {
 
 /* BANNER - SLICK CAROUSEL */
 
-section {
+.banner-container {
     position: relative;
 }
 
@@ -253,6 +255,7 @@ section {
 
 .slider img {
     width: 100%;
+    min-height: 516px;
 }
 
 
@@ -340,8 +343,9 @@ section {
     position: absolute;
     top: 25.2%;
     right: 0;
-    height: 45.7%;
-    width: 3.3%;
+    height: 100%;
+    max-height: 384px;
+    width: 63px;
     background: #084154;
     border-bottom-left-radius: 0.625rem;
 }
@@ -375,23 +379,22 @@ section {
 
 .container-banner-secundario {
     position: relative;
-    box-sizing: border-box;
-    width: 67.4%;
-    height: 368px;
+    top: -150px;
+    max-width: 1274px;
+    width: 100%;
     margin: 0 auto;
 }
 
 .container-banner-secundario-esquerda {
-    display: inline-block;
-    position: absolute;
+    float: left;
+    position: relative;
     width: 50%;
-    left: 0;
     top: -40.2%;
 }
 
 .container-banner-secundario-esquerda img {
-    width: 627px;
-    max-width: 100%;
+    width: 100%;
+    max-width: 627px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
 }
@@ -422,15 +425,15 @@ section {
 
 .container-banner-secundario-direita {
     display: inline-block;
-    position: absolute;
+    position: relative;
     width: 50%;
-    right: 0;
     top: -40.2%;
+    left: 10px;
 }
 
 .container-banner-secundario-direita img {
-    width: 627px;
-    max-width: 100%;
+    width: 100%;
+    max-width: 627px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
 }
@@ -463,9 +466,11 @@ section {
 /* PRATELEIRA */
 
 .prateleira {
+    position: relative;
     max-width: 1274px;
     width: 100%;
     margin: 0 auto;
+    top: -67px;
 }
 
 .prateleira h2 {
@@ -526,7 +531,7 @@ section {
     margin-top: 11px;
 }
 
-.produto-footer button {
+button {
     display: block;
     border: none;
     margin: 0 auto 21px auto;
@@ -539,4 +544,56 @@ section {
     font-size: 18px;
     line-height: 21px;
     border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    margin-top: 171px;
+}
+
+.footer-logo {
+    float: left;
+    background-color: #084154;
+    width: 29%;
+    height: 50px;
+    text-align: right;
+    padding-right: 44px;
+    padding-top: 11px;
+}
+
+.footer-logo img {
+    width: 42px;
+    height: 28px;
+}
+
+footer p {
+    float: right;
+    height: 50px;
+    background-color: #3EC6E0;
+    width: 71%;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 16px;
+    padding-left: 35px;
+    padding-top: 17px;
+}
+
+@media only screen and (max-width: 1400px) {
+    .container-banner-secundario {
+        top: 0;
+    }
+    .container-banner-secundario-direita {
+        left: 0;
+    }
+    .prateleira {
+        top: 0;
+        margin-top: 83px;
+    }
 }

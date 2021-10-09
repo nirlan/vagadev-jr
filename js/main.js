@@ -1,5 +1,5 @@
-    $(document).ready(function () {
-        $('.slider').on('init reInit afterChange', function (event, slick, currentSlide) {
+    $(document).ready(function() {
+        $('.slider').on('init reInit afterChange', function(event, slick, currentSlide) {
 
             if (!currentSlide) {
                 $('.slide-count').text('1 / ' + slick.slideCount);
@@ -39,5 +39,9 @@
             prevArrow: $('.left-arrow'),
             nextArrow: $('.right-arrow')
         });
-        
+
     });
+
+    function comprar() {
+        console.log('Comprei!')
+    };
